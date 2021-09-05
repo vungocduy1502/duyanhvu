@@ -10351,7 +10351,7 @@ i.flag:before {
   width: 16px;
   height: 11px;
   content: "";
-  background: url(https://mdbootstrap.com/img/svg/flags.png) no-repeat -108px -1976px;
+  background: url(https://mdbootstrap.com/img/svg/flags.jpg) no-repeat -108px -1976px;
 }
 i.flag-ad:before,
 i.flag-andorra:before {
@@ -13171,7 +13171,7 @@ i.flag:not(.icon):before {
 }
 i.flag:not(.icon):before {
   content: "";
-  background: url(https://mdbootstrap.com/img/svg/flags.png) no-repeat -108px -1976px;
+  background: url(https://mdbootstrap.com/img/svg/flags.jpg) no-repeat -108px -1976px;
 }
 i.flag.ad:before,
 i.flag.andorra:before {
@@ -14794,7 +14794,7 @@ fieldset:disabled .btn-group-vertical {
 }
 .accordion-button:after {
   font-weight: 700;
-  font-family: Font Awesome\5 Pro, Font Awesome\5 Free;
+  font-family: Font awesome\5 Pro, Font awesome\5 Free;
   content: "";
 }
 .carousel-control-prev-icon:after {
@@ -14803,7 +14803,7 @@ fieldset:disabled .btn-group-vertical {
 .carousel-control-next-icon:after,
 .carousel-control-prev-icon:after {
   font-weight: 700;
-  font-family: Font Awesome\5 Pro, Font Awesome\5 Free;
+  font-family: Font awesome\5 Pro, Font awesome\5 Free;
   font-size: 1.7rem;
 }
 .carousel-control-next-icon:after {

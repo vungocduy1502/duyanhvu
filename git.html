@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GIT</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"
+        media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+    </noscript>
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/aos.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.1" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="bg-light" id="top">
+    <header class="d-print-none">
+        <div class="container text-center text-lg-left">
+            <div class="pt-4 clearfix"></div>
+            <h1 class="site-title mb-0"><a class="logo" href="index.html" title="Git">Duy Anh</a></h1>
+            <div class="site-nav">
+                <nav role="navigation">
+                    <ul class="menu nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html" title="Profile"><span
+                                    class="menu-title">Profile</span></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="vscode.html" title="VScode"><span
+                                    class="menu-title">VS
+                                    code</span></a>
+                        </li>
+                        <li class="nav-item active"><a class="nav-link" href="git.html" title="Git"><span
+                                    class="menu-title">GIT</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="page-content">
+        <div class="container">
+            <div class="resume-container">
+                <div class="title-list text-center text-md-left">
+                    GIT
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-md-5 p-3" id="education">
+                    <div class="education-section">
+                        <h2 class="h2 fw-light mb-4">How to use GIT command line <p class="text-note">(By Kidi Tran)</p>
+                        </h2>
+
+                        <p>Git clone: lấy một project mới về</p>
+                        <p>Git checkout -b (branh-name): tách và tạo nhánh mới</p>
+                        <p>Git checkout (branch-name): chuyển nhánh</p>
+                        <p>Git pull: lấy code từ remote về local branch</p>
+                        <p>Git add . or Git add -A: chấp nhận các thay đổi trong code</p>
+                        <p>Git commit -m “meassage”: đưa code lên local</p>
+                        <p>Git push: đẩy code từ local lên remote branch</p>
+                        <p>Git fetch: lấy code về remote/origin branch, khi khi đang trên bất kỳ nhánh nào.</p>
+                        <p>Git merge (branch-name): gộp nhánh bất kỳ vào nhánh hiện tại (đang được checkout)</p>
+
+                        <p class="font-weight-bold mt-5">Thay đổi commit mới nhất:</p>
+                        <p>git commit –amend -m “New commit message.”</p>
+
+                        <p class="font-weight-bold mt-5">Xóa nhánh ở local</p>
+                        <p>Git branch -d <branch_name>: xóa an toàn, chỉ xóa được khi đã được merge</p>
+                        <p>Git branch -D <branch_name>: hard delete, xóa bất kể branch đã được merge hay chưa.</p>
+
+                        <p class="font-weight-bold mt-5">Xóa nhánh trên remote</p>
+                        <p>git push –delete <remote_name>
+                                <branch_name>
+                        </p>
+                        <p>Ex: git push –delete origin develop</p>
+
+                        <p class="font-weight-bold mt-5">Lưu lại thay đổi khi có một việc dở dang xen ngang, mà chưa
+                            muốn tạo commit
+                        </p>
+                        <p>Git stash save: lưu thay đổi</p>
+                        <p>Git stash list: xem lại danh sách các thay đổi đã lưu</p>
+                        <p>Git stash apply: Lệnh này cơ bản là sẽ lấy <span class="font-weight-bold">stash</span> cuối
+                            cùng (gần nhất) để <span class="font-weight-bold">apply</span> nó vào code
+                            của bạn. đúng kiểu <span class="font-weight-bold"> stack, vào
+                                cuối – ra đầu</span>. Trên ví dụ trên thì bạn biết là nó sẽ lấy thằng nào để apply rồi
+                            chứ!
+                            <span class="font-weight-bold">stash@{0}.</span>
+                        </p>
+                        <p>Git stash apply <span class="font-weight-bold">stash@{1}.</span>: muốn apply một thằng khác
+                            thì thế nào nhỉ? đơn giản lắm lấy thằng
+                            id của stash đó ra thôi chứ
+                            sao</p>
+                        <p>Git stash pop: Quả này thì cũng như git apply thôi! mỗi tội là thanh niên này rất sạch sẽ rút
+                            ra là xoá mọi dấu vết luôn
+                            => nó sẽ xoá stash đó khỏi đống stash của bạn thôi. Dưới dây là ví dụ này:</p>
+                        <p>Git stash clear: Xoá toàn bộ stash bạn đang lưu trữ trong repo. nó có thể sẽ không revert lại
+                            được nên chú ý nhé!</p>
+                        <p class="font-weight-bold">Xóa bỏ trạng thái của một vài commit</p>
+                        <p>Git revert <commit_id>: <span class="font-weight-bold">commit_id</span> chỉ định sẽ bị xóa
+                                bỏ, các commit mới hơn vẫn được giữ
+                                nguyên</p>
+                        <p>Git reset –hard <commit_id>: đưa head về vị trí commit_id, loạt bỏ tất cả các thay đổi, stage
+                                sau thời điểm <span class="font-weight-bold">commit_id</span>
+                                reset.</p>
+                        <p class="font-weight-bold">Phân biệt các branch: local, remote & origin</p>
+                        <p>Trước khi push code lên remote cần phải kiểm tra xem trên remote có bất kỳ thay đổi nào ở các
+                            nhánh không? Bằng cách
+                            dùng Git Fetch.</p>
+                        <p>Git fetch: lấy code từ Remote về nhánh origin/remote trên máy, k cần phải chuyển sang nhánh
+                            develop để pull code về.</p>
+                        <p>EX: lấy code từ nhánh Develop trên remote về nhánh orgin/develop. Dùng lệnh Git Fetch.</p>
+                        <p>Bây giờ code của origin/develop trên máy đã GIỐNG với code ở trên Develop remote</p>
+                        <p>Git merge origin/develop: để merge tất cả code từ develop vào branch hiện tại</p>
+                        <spann>
+                            <NOTE class="font-weight-bold">NOTE
+                        </spann>: khi này code mới nhất trên develop
+                        remote chưa được lấy về develop local, mà chỉ lấy về
+                        branch origin/develop, nếu
+                        muốn lấy trên local cần phải checkout nhánh develop và git pull origin develop.</p>
+                        <p>Sau khi merge, nếu có bất kỳ conflict nào cần phải xử lý ngay trước khi push lên remote.
+                        </p>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+        <div class="container">
+            <div class="my-3">
+                <div class="h4">Duy Anh</div>
+                <div class="footer-nav">
+                    <nav role="navigation">
+                        <ul class="nav justify-content-center">
+
+                            <li><a class="p-3" href="https://www.facebook.com/duyanhvu.1502/" title="Facebook"><i
+                                        class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                            </li>
+                            <li><a class="p-3" href="https://www.instagram.com/duyanhvu.1502/" title="Instagram"><i
+                                        class="fab fa-instagram"></i><span
+                                        class="menu-title sr-only">Instagram</span></a>
+                            </li>
+                            <li><a class="p-3" href="https://gitlab.com/vungocduy" title="Github"><i
+                                        class="fab fa-gitlab"></i><span class="menu-title sr-only">GitLab</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="text-small">
+                <div class="mb-1">Thank you for coming!</div>
+                <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+    <script src="scripts/aos.js?ver=1.2.1"></script>
+    <script src="scripts/main.js?ver=1.2.1"></script>
+</body>
+
+</html>

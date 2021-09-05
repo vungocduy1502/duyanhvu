@@ -193,6 +193,50 @@ footer a:not(.nav-link) {
   width: 100%;
   height: 100%;
 }
-.ml-2 {
-  margin-left: 16px;
+img {
+  height: auto;
+  max-width: 100%;
+}
+.pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  margin-bottom: 1.6em;
+  overflow: auto;
+  max-width: 100%;
+  padding: 1.6em;
+}
+.title-list {
+  margin-top: 100px;
+  background-color: #eee;
+  padding: 50px;
+  color: #0274be;
+  font-size: 40px;
+  font-weight: 400;
+}
+.text-note {
+  font-size: 16px;
+  color: #818182;
+}
+.active {
+  color: #0274be;
+}
+
+.logo {
+  color: black;
+}
+.site-title a:hover {
+  color: black !important;
+  text-decoration: none;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+
+  /* display: none; */
+}
+.fa-arrow-up {
+  margin-top: -17px;
+  margin-left: -17px;
 }
